@@ -1,0 +1,91 @@
+body{
+    background-color: #252525;
+    color: #107be7 ;
+}
+
+.section {
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+.side {
+    display: grid;
+    float: left;
+    margin-top: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    /* height: 40em; */
+    min-height: 58vh;
+    width: 40vw;
+    max-width: 400px;
+    border-color: black;
+    position: relative;
+    border-style: solid;
+    position: relative;
+    background-color: #107be738;
+}
+
+.rating{
+    display: grid;
+    
+}
+.poster {
+    object-fit: contain;
+    max-height: 250px;
+    margin: 10px 10px 10px 10px;
+    transition: transform 0.5s; /* Animation */
+}
+
+.poster:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.sectionTitle {
+    text-align: left;
+    margin: 0 0 0 20px;
+    font-size: 50px;
+}
+
+Button{
+    background-color: #107be7;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: -10px 100px;
+    opacity: 0.8;
+    transition: 0.5s;
+    display: flexbox;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    
+}
+
+button:hover {
+    opacity: 1
+}
+
+.rateButton {
+    padding-right: 10vw;
+    width: 10vh;
+    height: 50px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.home {
+    width: 140px;
+    height: 50px;
+    top:0;
+    left: 0;
+    position: absolute;
+    margin-top: 65px; 
+    justify-content: center;
+}
+
+  
+  
